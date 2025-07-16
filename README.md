@@ -7,14 +7,16 @@ N.B. The private GovWifi [build repository][build-repo] contains instructions on
 
 ## Table of Contents
 
-* [Overview](#overview)
-  * [Sinatra routes](#sinatra-routes)
-  * [Dependencies](#dependencies)
-* [Developing](#developing)
-  * [Deploying changes](#deploying-changes)
-* [Gotchas](#gotchas)
-  * [Extra API parameters](#extra-API-parameters)
-* [Licence](#licence)
+- [GovWifi Authentication API](#govwifi-authentication-api)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Sinatra routes](#sinatra-routes)
+    - [Dependencies](#dependencies)
+  - [Developing](#developing)
+    - [Deploying changes](#deploying-changes)
+  - [Gotchas](#gotchas)
+    - [Extra API parameters](#extra-api-parameters)
+  - [Licence](#licence)
 
 ## Overview
 
@@ -61,6 +63,6 @@ CloudWatch logs is useful for linking up matching requests between the
 This codebase is released under [the MIT License][mit].
 
 [mit]: LICENCE
-[build-repo]:https://github.com/alphagov/govwifi-build
-[user-signup-api]: https://github.com/alphagov/govwifi-user-signup-api/pull/33
-[makefile]: https://github.com/alphagov/govwifi-authentication-api/blob/master/Makefile
+[build-repo]:https://github.com/GovWifi/govwifi-build
+[user-signup-api]: https://github.com/GovWifi/govwifi-user-signup-api/pull/33
+[makefile]: https://github.com/GovWifi/govwifi-authentication-api/blob/master/Makefile
