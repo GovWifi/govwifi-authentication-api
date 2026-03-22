@@ -154,7 +154,7 @@ DEPENDENCIES
   sinatra-contrib
 
 RUBY VERSION
-   ruby 3.4.9p82
+   ruby 4.0.2p0
 
 BUNDLED WITH
    2.6.8
