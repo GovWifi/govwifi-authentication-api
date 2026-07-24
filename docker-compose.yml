@@ -15,7 +15,6 @@ services:
       DB_USER: root
       DB_HOSTNAME: db
       RACK_ENV: development
-      MARIADB_TLS_DISABLE_PEER_VERIFICATION: 1
     links:
       - db
     expose:
